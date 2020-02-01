@@ -44,7 +44,8 @@
                     <% } %>
                     <div class="cards">
                         <h5 class="card-title"><%= card_content[i].title %></h5>
-                        <img class="card-img" src="<%= card_content[i].image %>" alt="Slide ">
+                        <a href="/blog.html" id="<%= i %>"><img class="card-img" src="<%= card_content[i].image %>"
+                                alt="Slide "></a>
                         <p class="card-desc"><%= card_content[i].description %></p>
                     </div>
                 </div>
