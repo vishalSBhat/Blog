@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    background-image: linear-gradient(to bottom right, black, rgb(53, 51, 51));
+}
+
+.title {
+    display: inline-block;
+    font-size: 25px;
+    color: grey;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: 'Orbitron', sans-serif;
+    vertical-align: middle;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+    border: none;
+}
+
+.nav-elements {
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+    font-family: 'Black Ops One', cursive;
+    font-weight: lighter;
+}
+
+.wrap {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+}
+
+.gradient {
+    width: 100%;
+    height: 40%;
+    background-image: linear-gradient(to top right, black, rgb(53, 51, 51));
+}
+
+.carousel-cont {
+    margin: 20px;
+    padding: 0;
+    position: absolute;
+    max-height: 70%;
+    top: 10vh;
+    text-align: center;
+}
+
+
+.cards {
+    background-color: white;
+    box-shadow: 0 0 30px 0 black;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 25px;
+    color: black;
+}
+
+.card-img {
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.card-desc {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .title {
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding: 20px;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) {
+    .nav-container {
+        text-align: right;
+        padding: 10px;
+        padding-top: 0;
+        margin: auto;
+        margin-right: 0;
+    }
+
+    .nav-elements {
+        margin-right: 30px;
+        padding: 5px;
+    }
+
+    .gradient{
+        height: 60%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+        position: absolute;
+        top: 56%;
+    }
+
+    .carousel-cont {
+        max-width: 70vw;
+        max-height: none;
+        height: 80%;
+        left: 15vw;
+        right: 15vw;
+    }
+
+    .card-cont {
+        max-width: 50vw;
+        margin: auto;
+        padding: 25px;
+        padding-bottom: 0;
+    }
+
+    .cards {
+        height: 70vh;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .card-title {
+        margin: 5px;
+        margin-bottom: 20px;
+    }
+
+    .card-img {
+        margin: 0;
+        width: 60%;
+        height: 60%;
+    }
+
+}
