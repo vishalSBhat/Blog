@@ -36,20 +36,30 @@
     <div class="gradient"></div>
     <div id="carouselExampleControls" class="carousel slide carousel-cont" data-ride="carousel">
         <div class="carousel-inner card-cont">
-            <% for(var i=0; i<3; ++i){ %>
-            <%if(i==0){ %>
             <div class="carousel-item active">
-                <% }else{ %>
-                <div class="carousel-item">
-                    <% } %>
                     <div class="cards">
-                        <h5 class="card-title"><%= card_content[i].title %></h5>
-                        <a href="/blog.html" id="<%= i %>"><img class="card-img" src="<%= card_content[i].image %>"
+                        <h5 class="card-title">Kullu Manali</h5>
+                        <a href="/blog.html"><img class="card-img" src="https://lh3.googleusercontent.com/proxy/ylx0kvXHqFZ6pWDvZ1ao654e09av_Qm_1vslkFyjzb_kRvO7HwfiK1_W8o-OGYbB7BNTlgoV6rtdaHH-DHh2SkQpK4giSXZJP77mrccITueivBOPazmnhRlzfeCscA"
                                 alt="Slide "></a>
-                        <p class="card-desc"><%= card_content[i].description %></p>
+                        <p class="card-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reprehenderit iure architectosit, ipsam qui rerum asperiores! Autem dicta, debitis, modi soluta accusantium sequi est atbeatae voluptas ut ullam!</p>
                     </div>
                 </div>
-                <% } %>
+                <div class="carousel-item">
+                    <div class="cards">
+                        <h5 class="card-title">Leh Ladakh</h5>
+                        <a href="/blog.html"><img class="card-img" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/c5/94.jpg"
+                                alt="Slide "></a>
+                        <p class="card-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reprehenderit iure architectosit, ipsam qui rerum asperiores! Autem dicta, debitis, modi soluta accusantium sequi est atbeatae voluptas ut ullam!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards">
+                        <h5 class="card-title">Kanyakumari</h5>
+                        <a href="/blog.html"><img class="card-img" src="https://k6u8v6y8.stackpathcdn.com/blog/wp-content/uploads/2019/02/Rishikesh-Yoga-City-India.jpg"
+                                alt="Slide "></a>
+                        <p class="card-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe reprehenderit iure architectosit, ipsam qui rerum asperiores! Autem dicta, debitis, modi soluta accusantium sequi est atbeatae voluptas ut ullam!</p>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
