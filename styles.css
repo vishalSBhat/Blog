@@ -66,6 +66,10 @@ footer{
     text-align: center;
 }
 
+.card-cont{
+    margin: auto;
+}
+
 
 .cards {
     background-color: white;
